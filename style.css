@@ -14,7 +14,6 @@ body {
   margin-top: -1.4em;
   text-shadow: 0.25em -0.05em 0.20px white;
   color: #5d59a5;
-
 }
 
 .segundo {
@@ -22,14 +21,83 @@ body {
   padding-bottom: 2em;
   margin-top: -1em;
   padding-top: 0.1em;
-
 }
 
 .rotao {
   background-color: #ffff;
   margin-top: 1em;
   padding: 0.5em;
+  margin-bottom: 2em;
 }
+
+.naranja {
+  border: thick dashed white;
+  background-color: #f28226;
+  width: 45%;
+  left: 2em;
+  position: relative;
+}
+
+.verde {
+  border-radius: 0.3em;
+  background-image: url(Fotos/verde.png);
+  width: 45%;
+  left: 2em;
+  position: relative;
+}
+
+
+.marron {
+  border-left: thick solid white;
+  border-right: thick solid white;
+  background-color: #b45421;
+  width: 45%;
+  left: 2em;
+  position: relative;
+}
+
+.verde2 {
+  border-radius: 0.3em;
+  background-image: url(Fotos/verde.png);
+  width: 45%;
+  left: 2em;
+  position: relative;
+}
+
+.verde3 {
+
+  border-radius: 0.3em;
+  background-image: url(Fotos/verde.png);
+  width: 45%;
+  left: 2em;
+  position: relative;
+}
+
+
+.marron3 {
+
+  border-left: thick solid white;
+  border-right: thick solid white;
+  background-color: #b45421;
+  width: 45%;
+  left: 2em;
+  position: relative;
+}
+
+.verde4 {
+
+  border-radius: 0.3em;
+  background-image: url(Fotos/verde.png);
+  width: 45%;
+  left: 2em;
+  position: relative;
+}
+
+.naranja .marron .marron3 {
+  color: white;
+  font-size: 18em;
+}
+
 
 .rotao {
   display: table;
