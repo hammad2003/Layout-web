@@ -4,7 +4,6 @@ body {
   background-color: #5d59a5;
   margin-left: 2em;
   margin-right: 2em;
-
 }
 
 #primero {
@@ -28,76 +27,53 @@ body {
   margin-top: 1em;
   padding: 0.5em;
   margin-bottom: 2em;
+  display: table;
+  clear: both;
+  content: "";
 }
 
 .naranja {
   border: thick dashed white;
   background-color: #f28226;
-  width: 45%;
-  left: 2em;
-  position: relative;
+  color: white;
+  font-size: 18px;
 }
 
 .verde {
   border-radius: 0.3em;
   background-image: url(Fotos/verde.png);
-  width: 45%;
-  left: 2em;
-  position: relative;
+  color: black;
+  font-size: 18px;
 }
-
 
 .marron {
   border-left: thick solid white;
   border-right: thick solid white;
   background-color: #b45421;
-  width: 45%;
-  left: 2em;
-  position: relative;
-}
-
-.verde2 {
-  border-radius: 0.3em;
-  background-image: url(Fotos/verde.png);
-  width: 45%;
-  left: 2em;
-  position: relative;
-}
-
-.verde3 {
-
-  border-radius: 0.3em;
-  background-image: url(Fotos/verde.png);
-  width: 45%;
-  left: 2em;
-  position: relative;
-}
-
-
-.marron3 {
-
-  border-left: thick solid white;
-  border-right: thick solid white;
-  background-color: #b45421;
-  width: 45%;
-  left: 2em;
-  position: relative;
-}
-
-.verde4 {
-
-  border-radius: 0.3em;
-  background-image: url(Fotos/verde.png);
-  width: 45%;
-  left: 2em;
-  position: relative;
-}
-
-.naranja .marron .marron3 {
   color: white;
-  font-size: 18em;
+  font-size: 18px;
 }
 
+.contenedornaranja {
+
+padding: 1em;
+padding-left: 4em;
+padding-right: 7em;
+}
+
+.contenedorverde {
+
+padding: 1em;
+padding-left: 6em;
+padding-right: 5em;
+}
+
+.contenedormarron {
+
+padding: 1em;
+padding-left: 8em;
+padding-right: 3em;
+}
 
 .rotao {
   display: table;
